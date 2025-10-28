@@ -1,6 +1,6 @@
 {
   "name": "n8n-nodes-axiomai",
-  "version": "0.1.6",
+  "version": "0.1.8",
   "description": "n8n community node to post data to axiom.ai",
   "keywords": [
     "n8n-community-node-package",
@@ -18,9 +18,9 @@
     "data entry"
   ],
   "license": "MIT",
-  "homepage": "https://bitbucket.org/thegreatwebco/axiom-n8n#readme",
+  "homepage": "https://bitbucket.org/thegreatwebco/axiom-n8n/src/master/README.md",
   "author": {
-    "name": "Alex Barlow - Axiom.ai",
+    "name": "Axiom.ai",
     "email": "support@axiom.ai"
   },
   "repository": {
