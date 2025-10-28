@@ -1,6 +1,6 @@
 {
   "name": "n8n-nodes-axiomai",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "n8n community node to post data to axiom.ai",
   "keywords": [
     "n8n-community-node-package",
@@ -18,14 +18,14 @@
     "data entry"
   ],
   "license": "MIT",
-  "homepage": "https://github.com/alexbarlow/n8n-nodes-axiomai",
+  "homepage": "https://axiom.ai",
   "author": {
     "name": "Alex Barlow - Axiom.ai",
     "email": "support@axiom.ai"
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/alexbarlow/n8n-nodes-axiomai.git"
+    "url": "https://bitbucket.org/thegreatwebco/axiom-n8n.git"
   },
   "main": "index.js",
   "scripts": {
