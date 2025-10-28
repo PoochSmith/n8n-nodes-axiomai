@@ -4,7 +4,6 @@ import {
 	INodeType,
 	INodeTypeDescription,
 	NodeOperationError,
-	IHttpRequestMethods,
 } from 'n8n-workflow';
 
 export class AxiomAi implements INodeType {
@@ -189,25 +188,23 @@ export class AxiomAi implements INodeType {
 					throw new NodeOperationError(this.getNode(), 'Data must be an array');
 				}
 
-				// Prepare the request body
-				const body = {
-					key: apiKey,
-					name: axiomName,
-					data: data,
-				};
+			// Prepare the request body
+			const body = {
+				key: apiKey,
+				name: axiomName,
+				data: data,
+			};
 
-				// Make the API request
-				const options = {
-					method: 'POST' as IHttpRequestMethods,
-					body: body,
-					headers: {
-						'Content-Type': 'application/json',
-					},
-					uri: 'https://lar.axiom.ai/api/v3/trigger',
-					json: true,
-				};
-
-				const response = await this.helpers.request(options);
+			// Make the API request
+			const response = await this.helpers.httpRequest({
+				method: 'POST',
+				url: 'https://lar.axiom.ai/api/v3/trigger',
+				body: body,
+				headers: {
+					'Content-Type': 'application/json',
+				},
+				json: true,
+			});
 
 				returnData.push({
 					json: response,
