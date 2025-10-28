@@ -1,6 +1,6 @@
 {
   "name": "n8n-nodes-axiomai",
-  "version": "0.1.8",
+  "version": "0.1.9",
   "description": "n8n community node to post data to axiom.ai",
   "keywords": [
     "n8n-community-node-package",
@@ -18,17 +18,17 @@
     "data entry"
   ],
   "license": "MIT",
-  "homepage": "https://bitbucket.org/thegreatwebco/axiom-n8n/src/master/README.md",
+  "homepage": "https://github.com/PoochSmith/n8n-nodes-axiomai#readme",
   "author": {
     "name": "Axiom.ai",
     "email": "support@axiom.ai"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://bitbucket.org/thegreatwebco/axiom-n8n.git"
+    "url": "git+https://github.com/PoochSmith/n8n-nodes-axiomai.git"
   },
   "bugs": {
-    "url": "https://bitbucket.org/thegreatwebco/axiom-n8n/issues"
+    "url": "https://github.com/PoochSmith/n8n-nodes-axiomai/issues"
   },
   "main": "index.js",
   "scripts": {
